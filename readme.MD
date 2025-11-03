@@ -148,3 +148,11 @@ erro de prisma migrate reset
 
 npx prisma db pull
 
+
+C:\Users\Aluno DS\Desktop\sistema-teoria-de-filmes>node prisma/seed.js
+Erro no seed: TypeError: Cannot read properties of undefined (reading 'createMany')
+    at main (file:///C:/Users/Aluno%20DS/Desktop/sistema-teoria-de-filmes/prisma/seed.js:5:22)    
+    at file:///C:/Users/Aluno%20DS/Desktop/sistema-teoria-de-filmes/prisma/seed.js:73:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
