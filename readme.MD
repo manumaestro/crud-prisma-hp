@@ -124,3 +124,12 @@ npx prisma generate
 npx prisma db seed
 npm run studio
 ```
+
+```
+## ❌ Caso der erro e tiver aparecendo 5k+ alterações no commit rodar os seguintes comandos: 
+
+git rm -r --cached node_modules
+git rm --cached .env
+git add .
+git commit -m "Commit aqui"
+git push origin main
