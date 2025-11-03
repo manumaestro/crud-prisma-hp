@@ -141,3 +141,10 @@ rm package-lock.json
 npm install        
 Isso força o Node a reconstruir os binários do Prisma sem conflito
 Rodar novamente npx prisma generate
+
+
+
+erro de prisma migrate reset 
+
+npx prisma db pull
+
