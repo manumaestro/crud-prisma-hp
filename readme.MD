@@ -133,3 +133,11 @@ git rm --cached .env
 git add .
 git commit -m "Commit aqui"
 git push origin main
+
+Se der erro de dll.
+Apagar node_modules e rodar: 
+rm -rf node_modules
+rm package-lock.json 
+npm install        
+Isso força o Node a reconstruir os binários do Prisma sem conflito
+Rodar novamente npx prisma generate
